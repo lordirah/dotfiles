@@ -1,1 +1,1 @@
-vim.g.vimwiki_list = {{path = '~/repos/my_repos/mywiki', syntax = 'markdown', ext = '.md'}}
+vim.g.vimwiki_list = {{path = '~/repos/myrepos/mywiki', syntax = 'markdown', ext = '.md'}}

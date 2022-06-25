@@ -6,7 +6,7 @@ window:
     x: 2
     y: 2
   dynamic_padding: false
-  opacity: 0.8
+  opacity: 1 
   decorations: none
   # Maximized
   startup_mode: Maximized
