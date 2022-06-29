@@ -28,8 +28,8 @@ keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<S-x>", ":bnext<CR>", opts)
-keymap("n", "<S-z>", ":bprevious<CR>", opts)
+keymap("n", "<S-h>", ":bnext<CR>", opts)
+keymap("n", "<S-l>", ":bprevious<CR>", opts)
 
 -- Clear highlights
 keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
