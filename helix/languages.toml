@@ -7,9 +7,11 @@
  roots = ["pyproject.toml", "setup.py", "Poetry.lock"]
  comment-token = "#"
  language-server = { command = "pyright-langserver", args = ["--stdio"] }
+ formatter = { command = "black", args = ["-q", "-"]}
  auto-format = false
  indent = { tab-width = 4, unit = "    " }
  config = {}
+ rulers = [79]
 
 [[grammar]]
 name = "python"
