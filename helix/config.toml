@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard"
+theme = "rose_pine_moon"
 
 [editor]
 line-number = "relative"
@@ -8,6 +8,8 @@ color-modes = true
 
 [editor.lsp]
 display-messages = true
+display-signature-help-docs = false
+display-inlay-hints = true
 
 [editor.search]
 smart-case = true
@@ -77,6 +79,9 @@ Y = [
   "collapse_selection"
 ]
 
+# C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+# C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+
 esc = ["collapse_selection", "keep_primary_selection"]
 
 [keys.select]
@@ -104,5 +109,8 @@ Y = [
 
 p = ":clipboard-paste-replace"
 P = ":clipboard-paste-after"
+
+# C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+# C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
