@@ -79,6 +79,9 @@ Y = [
   "collapse_selection"
 ]
 
+H = [":buffer-previous"]
+L = [":buffer-next"]
+
 # C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 # C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
@@ -109,8 +112,5 @@ Y = [
 
 p = ":clipboard-paste-replace"
 P = ":clipboard-paste-after"
-
-# C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
-# C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 
 esc = ["collapse_selection", "keep_primary_selection", "normal_mode"]
