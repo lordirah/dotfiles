@@ -1,0 +1,24 @@
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+
+[language-server.ruff-lsp.config]
+documentFormatting = true 
+settings.run = "onSave"
+
+[language-server.pyright]
+command = "pyright-ls-helix"
+
+[[language]]
+name = "python"
+auto-format = true
+language-servers = [
+  # { name = "ruff-lsp"},
+  { name = "pyright", except-features = [ "format", "diagnostics" ] },
+  { name = "ruff-lsp", only-features = [ "format", "diagnostics" ]}
+]
+indent = { tab-width = 4, unit = "    " }
+
+[[grammar]]
+name = "python"
+source = { git = "https://github.com/tree-sitter/tree-sitter-python", rev = "4bfdd9033a2225cc95032ce77066b7aeca9e2efc" }
+
