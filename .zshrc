@@ -28,3 +28,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Harlequin
 alias h="harlequin"
+
+export PATH="$PATH:/usr/local/go/bin"
+
