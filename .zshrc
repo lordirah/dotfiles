@@ -7,6 +7,8 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
+alias k='kubectl'
+
 # starship
 eval "$(starship init zsh)"
 
@@ -21,3 +23,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$PATH:/usr/local/go/bin"
+
+. "$HOME/.local/bin/env"
+
+export D="/run/media/lordirah/SECONDARY"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/home/lordirah/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
